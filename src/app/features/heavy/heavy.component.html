@@ -1,0 +1,18 @@
+<h2>Feature: 7: &#64;defer Lazy Loading</h2>
+
+@defer (on timer(5s)) {
+    <app-heavy-content />
+}
+
+
+@placeholder{
+    <p>Loading......</p>
+}
+
+@loading (minimum 5s) {
+    Please wait...   
+}
+
+@error {
+    Failed
+}

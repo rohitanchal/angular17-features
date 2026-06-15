@@ -1,0 +1,48 @@
+<h2>Feature: 1: Standalone Demo</h2>
+<p>Standalone Demo works! <span style="color: green;">Checked</span></p>
+
+
+
+<h2>Feature: 2: Control Flow</h2>
+<p>New Control Flow <strong>(&#64;if)</strong></p>
+
+<h2>New &#64;if Demo</h2>
+
+@if(isLoggedIn) {
+    <p>User Is Logged In</p>
+} @else {
+    <p>Please Login</p>
+}
+
+<span style="color: green;">Checked</span>
+
+<h2>Feature: 3: List Rendering using FOR</h2>
+<h2>New &#64;for Demo</h2>
+
+@for(user of users; track user.id) {
+    <p>{{ user.id }} - {{ user.name }} - {{ user.email }}</p>
+} @empty {
+    <p>No users found</p>
+}
+
+<span style="color: green;">Checked</span>
+
+<h2>Feature: 5: Switch Case</h2>
+<h2>New &#64;switch-case Demo</h2>
+
+@switch(status) {
+    @case('success') {
+        <p>Success</p>
+    }
+    @case('error') {
+        <p>Error</p>
+    }
+    @case('pending') {
+        <p>Pending</p>
+    }
+    @default {
+        <p>Unknown</p>
+    }
+}
+
+<span style="color: green;">Checked</span>
