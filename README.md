@@ -1,59 +1,72 @@
-# Angular17
+# Angular 17+ Features Lab 🚀
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
+A hands-on Angular 17+ learning project created to explore and test modern Angular features step-by-step using standalone architecture.
 
-## Development server
+## About This Project
 
-To start a local development server, run:
+This project demonstrates the latest Angular development approach by building small practical examples for each major Angular 17+ feature.
+
+The goal is to understand how modern Angular applications are structured, how standalone components work, and how new template and performance features improve development.
+
+## Features Covered
+
+✅ Standalone Components  
+- Component without NgModule dependency
+- Direct imports inside components
+
+✅ Standalone Bootstrap API
+- Using `bootstrapApplication()`
+- Modern Angular application startup flow
+
+✅ Standalone Routing
+- `provideRouter()`
+- Lazy loading with `loadComponent()`
+- Route-based component rendering
+
+✅ New Control Flow Syntax
+- `@if`
+- `@else`
+- `@for`
+- `@empty`
+- `@switch`
+
+✅ Signals
+- `signal()`
+- `computed()`
+- `effect()`
+- Reactive state management
+
+✅ Deferrable Views
+- `@defer`
+- `@placeholder`
+- Lazy rendering for better performance
+
+✅ Required Component Inputs
+- Input validation using required inputs
+
+✅ Reactive Forms
+- FormGroup
+- FormControl
+- Reactive form handling
+- Form value tracking
+
+## Tech Stack
+
+- Angular 17+
+- TypeScript
+- HTML5
+- CSS3
+- Bootstrap
+
+## Purpose
+
+This repository is created for learning, experimentation, and reference while working with modern Angular features.
+
+Each feature is implemented separately with simple examples to understand the concept and practical usage.
+
+## Run Project
+
+Install dependencies:
 
 ```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+npm install
